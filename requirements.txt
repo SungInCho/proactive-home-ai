@@ -1,0 +1,12 @@
+ai2thor
+torch
+torchvision
+opencv-python
+numpy
+matplotlib
+pandas
+wandb
+transformers==4.36.0
+accelerate
+jupyter
+groundingdino-py
