@@ -8,11 +8,11 @@ from tracking.scene_graph import SceneGraph
 SAVE_DIR = Path("data/episodes/scenarios")
 SAVE_DIR.mkdir(parents=True, exist_ok=True)
 
-FLOOR_PLANS = [f"FloorPlan{i}" for i in range(1, 6)]
+FLOOR_PLANS = [f"FloorPlan{i}" for i in range(1, 31)]
 
 OPENABLE_TYPES = [
     "Fridge", "Microwave", "Cabinet",
-    "Drawer", "Book", "Box",
+    "Drawer", "Book", "Box"
 ]
 
 def run_scenario(floor_plan: str, episode_id: int) -> dict:
@@ -64,7 +64,7 @@ def run_scenario(floor_plan: str, episode_id: int) -> dict:
                 actions_taken.append(f"OpenObject:{obj['objectType']}")
         
         # randomly dirty a visible object
-        if random.random() < 0.2:
+        if random.random() < 0.5:
             dirtyable = [
                 o for o in event.metadata["objects"]
                 if o.get("dirtyable")
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
     for floor_plan in FLOOR_PLANS:
         print(f"[INFO] Running {floor_plan}...")
-        for i in range(5):  # 5 episodes per floor plan
+        for i in range(10):  # 5 episodes per floor plan
             episode = run_scenario(floor_plan, episode_id)
             all_episodes.append(episode)
             n_labels = len(episode["action_labels"])
