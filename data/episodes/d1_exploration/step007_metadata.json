@@ -1,16 +1,16 @@
 {
   "step": 7,
-  "action": "RotateLeft",
+  "action": "MoveAhead",
   "action_success": true,
   "agent_position": {
-    "x": -1.0,
+    "x": -0.75,
     "y": 0.900999128818512,
     "z": 1.5
   },
   "agent_rotation": {
     "x": -0.0,
-    "y": 0.0,
-    "z": 0.0
+    "y": 90.0,
+    "z": -0.0
   },
   "objects": [
     {
@@ -24,7 +24,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.182220458984375,
+      "distance": 1.092120885848999,
       "visible": false
     },
     {
@@ -38,8 +38,8 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.4673174619674683,
-      "visible": false
+      "distance": 1.279852032661438,
+      "visible": true
     },
     {
       "objectId": "Bottle|+01.54|+00.89|-02.54",
@@ -52,7 +52,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.772115230560303,
+      "distance": 4.643876552581787,
       "visible": false
     },
     {
@@ -66,7 +66,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.5958282947540283,
+      "distance": 2.4827868938446045,
       "visible": false
     },
     {
@@ -80,7 +80,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.6236870288848877,
+      "distance": 1.5684551000595093,
       "visible": false
     },
     {
@@ -94,7 +94,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.058453321456909,
+      "distance": 2.0014078617095947,
       "visible": false
     },
     {
@@ -108,7 +108,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.083776950836182,
+      "distance": 3.9874472618103027,
       "visible": false
     },
     {
@@ -122,7 +122,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.726558208465576,
+      "distance": 3.7469635009765625,
       "visible": false
     },
     {
@@ -136,7 +136,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.3121490478515625,
+      "distance": 1.4350035190582275,
       "visible": false
     },
     {
@@ -150,7 +150,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.458811283111572,
+      "distance": 4.368466377258301,
       "visible": false
     },
     {
@@ -164,7 +164,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.793850064277649,
+      "distance": 1.924941062927246,
       "visible": false
     },
     {
@@ -178,7 +178,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.4435343742370605,
+      "distance": 4.355169296264648,
       "visible": false
     },
     {
@@ -192,7 +192,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.531792640686035,
+      "distance": 3.579254150390625,
       "visible": false
     },
     {
@@ -206,7 +206,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.171919345855713,
+      "distance": 4.220196723937988,
       "visible": false
     },
     {
@@ -220,7 +220,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.12270450592041,
+      "distance": 4.113768577575684,
       "visible": false
     },
     {
@@ -234,7 +234,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.951766848564148,
+      "distance": 2.0882761478424072,
       "visible": false
     },
     {
@@ -248,7 +248,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.32903528213501,
+      "distance": 4.2375168800354,
       "visible": false
     },
     {
@@ -262,8 +262,8 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.7781473398208618,
-      "visible": false
+      "distance": 1.6624703407287598,
+      "visible": true
     },
     {
       "objectId": "CounterTop|-01.87|+00.95|-01.21",
@@ -276,7 +276,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.8421761989593506,
+      "distance": 2.9282188415527344,
       "visible": false
     },
     {
@@ -290,7 +290,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 0.8545623421669006,
+      "distance": 0.7242990732192993,
       "visible": false
     },
     {
@@ -304,7 +304,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.3673295974731445,
+      "distance": 4.2953925132751465,
       "visible": false
     },
     {
@@ -318,7 +318,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.3219335079193115,
+      "distance": 3.3950142860412598,
       "visible": false
     },
     {
@@ -332,7 +332,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.8039608001708984,
+      "distance": 1.8965691328048706,
       "visible": false
     },
     {
@@ -346,7 +346,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.180306434631348,
+      "distance": 4.069700241088867,
       "visible": false
     },
     {
@@ -360,7 +360,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.197251796722412,
+      "distance": 4.087104320526123,
       "visible": false
     },
     {
@@ -374,7 +374,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.413085699081421,
+      "distance": 1.5296441316604614,
       "visible": false
     },
     {
@@ -388,7 +388,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.238195419311523,
+      "distance": 4.129140377044678,
       "visible": false
     },
     {
@@ -402,7 +402,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.187026500701904,
+      "distance": 4.076602935791016,
       "visible": false
     },
     {
@@ -416,7 +416,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.213899612426758,
+      "distance": 4.104198932647705,
       "visible": false
     },
     {
@@ -430,7 +430,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.8758348226547241,
+      "distance": 1.9650588035583496,
       "visible": false
     },
     {
@@ -444,7 +444,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.7884740829467773,
+      "distance": 1.8819243907928467,
       "visible": false
     },
     {
@@ -458,7 +458,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.0743621587753296,
+      "distance": 1.3178092241287231,
       "visible": false
     },
     {
@@ -472,7 +472,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.2122931480407715,
+      "distance": 3.310109853744507,
       "visible": false
     },
     {
@@ -486,8 +486,8 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.015390634536743,
-      "visible": false
+      "distance": 1.903759241104126,
+      "visible": true
     },
     {
       "objectId": "Fork|+00.95|+00.77|-02.37",
@@ -500,7 +500,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.330974578857422,
+      "distance": 4.224360466003418,
       "visible": false
     },
     {
@@ -514,7 +514,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.482697606086731,
+      "distance": 1.676124095916748,
       "visible": false
     },
     {
@@ -528,7 +528,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.4035637378692627,
+      "distance": 1.5811359882354736,
       "visible": false
     },
     {
@@ -542,7 +542,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.131297588348389,
+      "distance": 4.195771217346191,
       "visible": false
     },
     {
@@ -556,7 +556,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.5749897956848145,
+      "distance": 4.469268321990967,
       "visible": false
     },
     {
@@ -570,7 +570,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.8635196685791016,
+      "distance": 1.971322774887085,
       "visible": false
     },
     {
@@ -584,7 +584,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.5738518238067627,
+      "distance": 2.662837028503418,
       "visible": false
     },
     {
@@ -598,7 +598,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.7431223392486572,
+      "distance": 3.5225648880004883,
       "visible": false
     },
     {
@@ -612,7 +612,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.171885967254639,
+      "distance": 4.133476734161377,
       "visible": false
     },
     {
@@ -626,7 +626,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.252951145172119,
+      "distance": 2.3491883277893066,
       "visible": false
     },
     {
@@ -640,7 +640,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.277019023895264,
+      "distance": 4.182678699493408,
       "visible": false
     },
     {
@@ -654,7 +654,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.549461841583252,
+      "distance": 2.663393497467041,
       "visible": false
     },
     {
@@ -668,7 +668,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.173104763031006,
+      "distance": 4.102108001708984,
       "visible": false
     },
     {
@@ -682,7 +682,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.6088995933532715,
+      "distance": 4.508487224578857,
       "visible": false
     },
     {
@@ -696,7 +696,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.8622140884399414,
+      "distance": 3.8844172954559326,
       "visible": false
     },
     {
@@ -710,7 +710,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.7091574668884277,
+      "distance": 3.761409282684326,
       "visible": false
     },
     {
@@ -724,7 +724,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.284073352813721,
+      "distance": 4.212172508239746,
       "visible": false
     },
     {
@@ -738,7 +738,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.957630634307861,
+      "distance": 4.823390960693359,
       "visible": false
     },
     {
@@ -752,7 +752,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.904447078704834,
+      "distance": 4.768710136413574,
       "visible": false
     },
     {
@@ -766,7 +766,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.916164398193359,
+      "distance": 4.780760288238525,
       "visible": false
     },
     {
@@ -780,7 +780,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.985108852386475,
+      "distance": 4.851629257202148,
       "visible": false
     },
     {
@@ -794,7 +794,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.1327457427978516,
+      "distance": 3.2135021686553955,
       "visible": false
     },
     {
@@ -808,7 +808,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.1269278526306152,
+      "distance": 3.2084619998931885,
       "visible": false
     },
     {
@@ -822,7 +822,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.6688244342803955,
+      "distance": 3.744131088256836,
       "visible": false
     },
     {
@@ -836,7 +836,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.074236869812012,
+      "distance": 3.9964144229888916,
       "visible": false
     },
     {
@@ -850,7 +850,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.276848316192627,
+      "distance": 4.166825294494629,
       "visible": false
     },
     {
@@ -864,7 +864,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 5.05933141708374,
+      "distance": 4.917500972747803,
       "visible": false
     },
     {
@@ -878,7 +878,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.7871100902557373,
+      "distance": 2.6418001651763916,
       "visible": false
     },
     {
@@ -892,7 +892,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.173833131790161,
+      "distance": 1.9790242910385132,
       "visible": false
     },
     {
@@ -906,7 +906,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.9087841510772705,
+      "distance": 3.8824853897094727,
       "visible": false
     },
     {
@@ -920,7 +920,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.188640594482422,
+      "distance": 4.138267517089844,
       "visible": false
     },
     {
@@ -934,7 +934,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.110959529876709,
+      "distance": 4.085962295532227,
       "visible": false
     },
     {
@@ -948,7 +948,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.9903929233551025,
+      "distance": 3.9374845027923584,
       "visible": false
     },
     {
@@ -962,7 +962,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.723647356033325,
+      "distance": 3.6972692012786865,
       "visible": false
     },
     {
@@ -976,7 +976,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.8151357173919678,
+      "distance": 3.758824348449707,
       "visible": false
     },
     {
@@ -990,7 +990,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.748202085494995,
+      "distance": 3.7116057872772217,
       "visible": false
     },
     {
@@ -1004,7 +1004,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.7770495414733887,
+      "distance": 3.7309720516204834,
       "visible": false
     },
     {
@@ -1018,7 +1018,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 1.600995421409607,
+      "distance": 1.7444734573364258,
       "visible": false
     },
     {
@@ -1032,7 +1032,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 2.403963804244995,
+      "distance": 2.352459669113159,
       "visible": false
     },
     {
@@ -1046,7 +1046,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.76261043548584,
+      "distance": 4.6329216957092285,
       "visible": false
     },
     {
@@ -1060,7 +1060,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.994386672973633,
+      "distance": 4.848957061767578,
       "visible": false
     },
     {
@@ -1074,7 +1074,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 3.0173428058624268,
+      "distance": 3.127596139907837,
       "visible": false
     },
     {
@@ -1088,7 +1088,7 @@
       "isOpen": false,
       "isDirty": false,
       "isPickedUp": false,
-      "distance": 4.151054859161377,
+      "distance": 4.158636569976807,
       "visible": false
     }
   ]

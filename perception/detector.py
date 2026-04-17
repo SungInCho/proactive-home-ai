@@ -18,9 +18,11 @@ HOME_OBJECTS = "cup . mug . bottle . bowl . plate . pan . pot . chair . drawer .
 BOX_THRESHOLD = 0.20
 TEXT_THRESHOLD = 0.15
 
-def load_detector():
+def load_detector(config_path = CONFIG_PATH, 
+                  weights_path = WEIGHTS_PATH, 
+                  device = DEVICE):
     """Load GroundingDINO Model"""
-    model = load_model(CONFIG_PATH, WEIGHTS_PATH, device=DEVICE)
+    model = load_model(config_path, weights_path, device)
     print(f"[INFO] Detector loaded on {DEVICE}")
     return model
 

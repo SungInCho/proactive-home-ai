@@ -37,9 +37,20 @@ def explore_floorplan(floor_plan: str = "FloorPlan1", steps: int = 10):
     actions = [
         "MoveAhead", "MoveAhead", "RotateRight",
         "MoveAhead", "MoveAhead", "RotateRight",
-        "MoveAhead", "RotateLeft", "MoveAhead", "MoveAhead"
+        "MoveAhead", "MoveAhead", "RotateLeft",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateLeft",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateLeft",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateLeft",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateRight",
+        "MoveAhead", "MoveAhead", "RotateLeft"
     ]
-
     for step, action in enumerate(actions[:steps]):
         event = controller.step(action=action)
 
@@ -112,5 +123,5 @@ def print_object_summary(save_dir: Path, step: int = 0):
 
 if __name__ == "__main__":
     # FloorPlan1 = Kitchen, FloorPlan201 = Living room, FloorPlan301 = Bedroom
-    save_dir = explore_floorplan(floor_plan="FloorPlan1", steps=10)
+    save_dir = explore_floorplan(floor_plan="FloorPlan1", steps=45)
     print_object_summary(save_dir, step=0)
