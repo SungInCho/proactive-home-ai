@@ -67,7 +67,7 @@ def episode_to_samples(episode: dict) -> list:
         obj_onehot = [0.0] * len(OBJECT_TYPES)
         obj_onehot[OBJ2IDX[obj_type]] = 1.0
 
-        feature_vector = obj_onehot + features  # len = 64 + 3 = 67
+        feature_vector = obj_onehot + features  # len = 63 + 3 = 66
 
         action = labeled_types.get(obj_type, "none")
         label  = ACTION2IDX.get(action, ACTION2IDX["none"])
@@ -109,7 +109,7 @@ if __name__ == "__main__":
             "samples":    all_samples,
             "action2idx": ACTION2IDX,
             "idx2action": IDX2ACTION,
-            "n_features": 67,
+            "n_features": len(OBJECT_TYPES) + 3,
             "n_classes":  len(ACTION2IDX),
         }, f, indent=2)
     print(f"\n[DONE] Saved {len(all_samples)} samples to {save_path}")
